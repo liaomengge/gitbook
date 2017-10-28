@@ -4,6 +4,8 @@
 2. 扫描包指定的注解
 
 ```
+compile 'org.reflections:reflections:0.9.11'
+
 public class AnnotationScanUtil {
 
     public static void scanPackage(String packageName, Class<? extends Annotation> clazz) {
